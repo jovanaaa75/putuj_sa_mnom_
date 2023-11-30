@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+    <title>Nas RSS</title>
+    <link>https://www.nesto.com/index.html</link>
+    <description>Od sada najnovija desavanja mozete pratiti i preko naseg RSS feeder-a</description>
+        <item>
+            <title>Instagram</title>
+            <description>Priključili smo se na još jednoj društvenoj mreži. U pitanju je instagram. Zapratite nas i uživajte u našim objavama.</description>
+            <link>https://www.instagram.com/jovanaaa75/?hl=sr</link>
+        </item>
+        <item>
+            <title>Instagram</title>
+            <description>Priključili smo se na još jednoj društvenoj mreži. U pitanju je instagram. Zapratite nas i uživajte u našim objavama.</description>
+            <link>https://www.instagram.com/jovanaaa75/?hl=sr</link>
+        </item>
+        <item>
+            <title>Instagram</title>
+            <description>Priključili smo se na još jednoj društvenoj mreži. U pitanju je instagram. Zapratite nas i uživajte u našim objavama.</description>
+            <link>https://www.instagram.com/jovanaaa75/?hl=sr</link>
+        </item>
+    </channel> 
+</rss>

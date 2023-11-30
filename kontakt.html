@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="sr-RS">
+    <head>
+        <title>Kontakt</title>
+        <!-- Meta tagovi -->
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Moje iskustvo sa putovanja"/>
+        <meta name="keywords" content="Ime, Telefon, Grad, Pol"/>
+        <meta name="author" content="Jovana Ilic"/>
+         <!-- Povezivanje sa CSS-om -->
+         <link href="css/style.css" rel="stylesheet" type="text/css"/>
+         <!-- Mala ikonica logo-->
+        <link rel="icon" href="slike/logo.png"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    </head>
+    <body>
+        <div id="okvir">
+            <!--Pocetak hedera-->
+            <div id="zaglavlje"> 
+                <div id="logo">
+                    <a href="index.html"><img src="slike/logo.png" title="Putuj sa mnom" alt="logo"/></a>
+                </div>
+                <div id="navigacioni-meni">
+                    <ul>
+                        <li title="Početna"><a href="index.html">POČETNA</a></li>
+                        <li title="Saveti za putovanja" ><a href="Saveti-za-putovanja.html">SAVETI ZA PUTOVANJA</a></li>
+                        <li title="Destinacije"><a href="destinacije.html">DESTINACIJE</a></li>
+                        <li title="Autor"><a href="autor.html">AUTOR</a></li>
+                        <li title="Kontakt"><a href="#">KONTAKT</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--Kraj hedera--> 
+            <!--Pocetak maina-->
+            <div id="sredina1">
+                <div id="form">
+                    <form action="#" method="POST">
+                        <fieldset>
+                            <legend class="labela">Forma za prijavu</legend>
+                            <label for="ime" class="labela">Ime:</label><br/>
+                            <input type="text" id="ime" name="ime" class="polje" placeholder="Vaše ime"/>
+                            </br></br>
+                            <label for="telefon" class="labela">Telefon:</label><br/>
+                            <input type="text" id="telefon" name="telefon" class="polje" placeholder="Vaš telefon"/>
+                            </br></br>
+                            <label for="email" class="labela">Email:</label><br/>
+                            <input type="text" id="email" name="email" class="polje" placeholder="Vaš email"/>
+                            </br></br>
+                            <label class="labela">Grad:</label><br/>
+                                <select class="polje">
+                                    <option value="">Odaberi</option>
+                                    <option value="Beograd">Beograd</option>
+                                    <option value="Novi Sad">Novi Sad</option>
+                                    <option value="Niš">Niš</option>
+                                </select>
+                            </br></br>
+                            <label class="labela">Pol:</label><br/>
+                            <input type="radio" id="zenski" name="pol"/><label for="zenski">Ženski</label>
+                            <input type="radio" id="muski" name="pol"/><label for="muski">Muški</label>
+                            </br></br></br></br>
+                            <input type="submit" id="dugme" name="dugme" value="Registracija"/>
+                            </br>
+                        </fieldset>
+                    </form>                 
+                </div>
+                <div id="slika-forma">
+                    <img src="slike/avion2.gif" alt="avion medju oblacima" width="470px" height="400px"/>
+                </div>          
+            </div>    
+            <div id="clear"></div>
+            <!--Kraj maina-->
+            <!--Pocetak futera-->
+            <footer> 
+                <div id="sva-prava-zadrzana">
+                    <p> COPYRIGHT &copy; 2020 | ALL RIGHTS RESERVED JOVANA ILIĆ </p>
+                </div>
+                <div id="ikonice">
+                    <a href="https://www.facebook.com/jovana.ilicccc/" class="fs-24"> <i class="fa fa-facebook"></i></a>                    
+                    <a href="https://www.instagram.com/jovanaaa75/?hl=sr" class="fs-24"><i class="fa fa-instagram"></i></a>                   
+                    <a href="rss.xml" class="fs-24"><i class="fa fa-rss"></i></a>               
+                    <a href="sitemap.xml" class="fs-24"><i class="fa fa-sitemap"></i></a>
+                </div>
+            </footer>
+            <!--Kraj futera-->
+        </div>  
+    </body>
+</html>
